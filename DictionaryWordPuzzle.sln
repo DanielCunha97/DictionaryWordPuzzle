@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryWordPuzzle", "DictionaryWordPuzzle\DictionaryWordPuzzle.csproj", "{03EB94C7-865A-43EF-B7C1-3E71026FF5CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DCA52590-6D99-43D4-988C-E9535539D635}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{201B901A-E411-43CA-BA06-5D1244E7F569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{400395D0-1A97-48FB-8551-F00A83F84275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryWordPuzzle.Core", "DictionaryWordPuzzle.Core\DictionaryWordPuzzle.Core.csproj", "{1736B2FC-445C-47A6-8AA7-8CDFCB8042E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryWordPuzzle.Domain", "DictionaryWordPuzzle.Domain\DictionaryWordPuzzle.Domain.csproj", "{D0D6727C-497B-49BF-82F4-1FC86A9D41E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryWordPuzzle.Persistence", "DictionaryWordPuzzle.Persistence\DictionaryWordPuzzle.Persistence.csproj", "{4D0BD662-4B87-43E1-B2AB-DC6896D0BB47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{38E22208-D51C-49E8-95C9-85B018AE2BD4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\BluePrismicTechnicalAssessment\words-english\words-english.txt = ..\..\..\Documents\BluePrismicTechnicalAssessment\words-english\words-english.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryWordPuzzle.Core.Tests", "DictionaryWordPuzzle.Core.Tests\DictionaryWordPuzzle.Core.Tests.csproj", "{A0C8C158-E99B-4288-9007-274A4F2BFA67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryWordPuzzle.Persistence.Tests", "DictionaryWordPuzzle.Persistence.Tests\DictionaryWordPuzzle.Persistence.Tests.csproj", "{51942E53-BA52-4090-A2D2-B8D7C20E7AAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03EB94C7-865A-43EF-B7C1-3E71026FF5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EB94C7-865A-43EF-B7C1-3E71026FF5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EB94C7-865A-43EF-B7C1-3E71026FF5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EB94C7-865A-43EF-B7C1-3E71026FF5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1736B2FC-445C-47A6-8AA7-8CDFCB8042E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1736B2FC-445C-47A6-8AA7-8CDFCB8042E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1736B2FC-445C-47A6-8AA7-8CDFCB8042E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1736B2FC-445C-47A6-8AA7-8CDFCB8042E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D6727C-497B-49BF-82F4-1FC86A9D41E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D6727C-497B-49BF-82F4-1FC86A9D41E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D6727C-497B-49BF-82F4-1FC86A9D41E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D6727C-497B-49BF-82F4-1FC86A9D41E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0BD662-4B87-43E1-B2AB-DC6896D0BB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0BD662-4B87-43E1-B2AB-DC6896D0BB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0BD662-4B87-43E1-B2AB-DC6896D0BB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0BD662-4B87-43E1-B2AB-DC6896D0BB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C8C158-E99B-4288-9007-274A4F2BFA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C8C158-E99B-4288-9007-274A4F2BFA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C8C158-E99B-4288-9007-274A4F2BFA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C8C158-E99B-4288-9007-274A4F2BFA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51942E53-BA52-4090-A2D2-B8D7C20E7AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51942E53-BA52-4090-A2D2-B8D7C20E7AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51942E53-BA52-4090-A2D2-B8D7C20E7AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51942E53-BA52-4090-A2D2-B8D7C20E7AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03EB94C7-865A-43EF-B7C1-3E71026FF5CE} = {DCA52590-6D99-43D4-988C-E9535539D635}
+		{1736B2FC-445C-47A6-8AA7-8CDFCB8042E6} = {201B901A-E411-43CA-BA06-5D1244E7F569}
+		{D0D6727C-497B-49BF-82F4-1FC86A9D41E1} = {201B901A-E411-43CA-BA06-5D1244E7F569}
+		{4D0BD662-4B87-43E1-B2AB-DC6896D0BB47} = {201B901A-E411-43CA-BA06-5D1244E7F569}
+		{A0C8C158-E99B-4288-9007-274A4F2BFA67} = {400395D0-1A97-48FB-8551-F00A83F84275}
+		{51942E53-BA52-4090-A2D2-B8D7C20E7AAB} = {400395D0-1A97-48FB-8551-F00A83F84275}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E099B73E-73D8-44FD-BC99-6534F00CB4D0}
+	EndGlobalSection
+EndGlobal
